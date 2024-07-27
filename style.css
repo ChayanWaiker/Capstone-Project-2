@@ -1,0 +1,404 @@
+body{
+    background-color: white;
+    color: #a262e6;
+    font-family: "";
+   
+}
+.one{
+    background-color: #C499F3;
+    
+}
+.logo{
+    height: 40px;
+    width: 50px;
+}
+.three{
+    font-family: "Sacramento", cursive;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 90vh;
+    align-items: center;
+}
+.photo{
+    height: 300px;
+    border-radius: 50%;
+    border: 10px #C499F3 solid;
+    animation: gradient 10s linear  infinite ;
+}
+
+@keyframes gradient{ 
+    0%{background-color: #ee7752;
+    }
+    25%{background-color: #e73c7e;
+    }
+    50%{background-color: #23a6d5,
+    }
+    75%{background-color: #23d5ab;
+    }
+    100%{background-color: #ee7752;}
+}
+
+.four{
+    margin-bottom: 30px;
+}
+h3{
+    padding-bottom:30px;
+}
+.eleven{
+    margin-top: 50PX;
+}
+.five{
+    margin-left: 50px;
+}
+p{
+    color: black;
+}
+.six{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin:40px;
+}
+a{
+    color: #a262e6;
+}
+.box{
+    margin: 15px;
+    padding: 15px;
+    border: 10px #C499F3 solid;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 7px 7px  #aaa8a8;
+    text-align: center;
+}
+.seven{
+    background-color: #a652fe10;
+    color:black ;
+    height: 500px;
+}
+.eight{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5%;
+}
+.nine{
+    width: 350px;
+    height: 350px;
+    border: 10px #C499F3 solid ;
+    border-radius: 10px;
+    background-color: white;
+    padding: 2%;
+    box-shadow: 7px 7px  #aaa8a8;
+    margin-left: 100px;
+}
+.about{
+    width:800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.ten{
+    background-color: #a652fe10;
+    height: 300px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.twelve{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.fourteen{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.thirteen{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.fifteen{
+    background-color: #C499F3;
+    height: 50px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 499px) {
+    
+    .one{
+        width: 100%;
+    }
+    #home{
+        width: 100%;
+        height: 500px;
+    }
+    .three{
+        display: block;
+        margin: 40px;
+    }
+    .photo{
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+    .seven{
+        height: 1000px;
+    }
+    .eight{
+        display: block;
+        gap: 50px;
+    }
+    .nine{
+        margin-left: 10px;
+        height: auto;
+        width: 330px;
+    }
+    .about{
+        display: block;
+        margin-top: 40px;
+       padding-left: 30px;
+       width: 100%;
+    }
+    .eleven{
+        display: block;
+
+    }
+    .five{
+        display: block;
+        margin: 40px;
+    }
+    .six{
+        display: block;
+        margin: -8px;
+        width: 100%;
+        height: auto;
+    }
+    .phone{
+        width: 200px;
+        height: auto;
+    }
+    .ten{
+        padding: 40px;
+        height: 320px;
+    }
+    .twelve{
+        display: grid;
+        grid-template: 75px 75px / 75px 75px 75px;
+        margin: 20px;
+        height: 200px;
+    }
+    .thirteen{
+        margin-left: -10px;
+    }
+    .fifteen{
+        height: 65px;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 769px){
+    .one{
+        width: 100%;
+    }
+    #home{
+        
+        height: 500px;
+    }
+    .three{
+        display: block;
+        width: 100%;
+        padding: 40px;
+        
+    }
+    .photo{
+        margin-bottom: 40px;
+        margin-left: 25%;
+    }
+    .seven{
+        height: 1000px;
+    }
+    .eight{
+        display: block;
+        gap: 50px;
+        margin-left: 15%;
+    }
+    .nine{
+        margin-left: 10px;
+        height: auto;
+        width: 330px;
+    }
+    .about{
+        display: block;
+        margin-top: 40px;
+       padding-left: 30px;
+       width: 100%;
+    }
+    .eleven{
+        display: block;
+
+    }
+    .five{
+        display: block;
+        margin: 40px;
+    }
+    .six{
+        display: block;
+        margin: -8px;
+        width: 100%;
+        height: auto;
+    }
+    .phone{
+        width: 200px;
+        height: auto;
+    }
+    .ten{
+        padding: 40px;
+        height: 320px;
+    }
+    .twelve{
+        display: grid;
+        grid-template: 75px 75px / 75px 75px 75px;
+        margin: 20px;
+        height: 200px;
+    }
+    .thirteen{
+        margin-left: -10px;
+    }
+    .fifteen{
+        height: 65px;
+        padding-top: 0px;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px){
+    .one{
+        width: 100%;
+    }
+    #home{
+        
+        height: 500px;
+    }
+    .three{
+        display: block;
+        width: 100%;
+        padding: 40px;
+   
+    }
+    .photo{
+        margin-bottom: 40px;
+        margin-left: 25%;
+    }
+    .seven{
+        height: 600px;
+    }
+    .eight{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5%;
+    }
+    .nine{
+        margin-left: 10px;
+        height: auto;
+        width: 330px;
+    }
+    .about{
+        width:800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .eleven{
+        display: block;
+
+    }
+    .five{
+        display: block;
+        margin: 40px;
+    }
+    .box{
+        width: 250px;
+    }
+    .six{
+        display: grid;
+        grid-template: 1fr 1fr /1fr 1fr 1fr;
+        height: auto;
+        width: 100%;
+        margin: 0px;
+        gap: 0px;
+    }
+    .phone{
+        width: 200px;
+        height: auto;
+    }
+    .ten{
+        padding: 40px;
+        height: 280px;
+    }
+    .twelve{
+        display: flex;
+        margin: 20px;
+    }
+    .thirteen{
+        margin-left: -10px;
+    }
+    .fifteen{
+        height: 65px;
+        padding-top: 0px;
+    }
+} 
+
+@media screen and (min-width: 991px) and (max-width: 1400px){
+    .seven{
+        height: 600px;
+    }
+    .eight{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5%;
+    }
+    .nine{
+        margin-left: 10px;
+        height: auto;
+        width: 330px;
+    }
+    .about{
+        width:700px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .six{
+        display: grid;
+        grid-template-columns:  1fr 1fr  ;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;
+        margin:40px;
+    }
+}
